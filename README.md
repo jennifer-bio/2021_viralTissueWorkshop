@@ -11,21 +11,26 @@ Or download code and run on locally with jupyter notebooks.
 
 ### Before you start running code in the jupyter notebook
 1. Think about the parameter INFECT_PROB, which stands for ‘infection probability’:
+
 1a. If INFECT_PROB is set to 0, what would happen to the healthy cells next to a Viral Assembly (VA) cell? Or the healthy cells next to a Viral Release (VR) cell?
 
 1b. If INFECT_PROBis set to 1, what would happen to the healthy cells next to a Viral Assembly (VA) cell? Or the healthy cells next to a Viral Release (VR) cell?
 
 ### Run simulation and visualize
 2. When you run the below code how many times do you run one_time_step(tissue, infect_prob)?
-n_time_steps = 30
-tissue_frames = t_time_step(n_time_steps, tissue, infect_prob = INFECT_PROB)
+
+  n_time_steps = 30
+ 
+  tissue_frames = t_time_step(n_time_steps, tissue, infect_prob = INFECT_PROB)
 
 3. Once you have made your first movie, think about the image 
+
 3a. What do the legend colors represent?
 
 3b. Describe what you see happen over time in the animation: what is the end state and how did it get there
 
 4. Run the simulation again and change the value of INFECT_PROB
+
 4a. What happens if INFECT_PROB = 0.05?
 
 4b. What happens if INFECT_PROB = 0.95?
@@ -40,6 +45,7 @@ Note that the actual number of starting infected cells is a random number within
 6. Before you run the final cell in this section to generate the simulation, what do you predict will happen? How will this be different than the previous simulation?
 
 7. Re-run the simulation and change the n_immune_recruited value
+
 7a. What happens when you change n_immune_recruited to 0? 
 
 7b. What happens when you change n_immune_recruited to 10?
