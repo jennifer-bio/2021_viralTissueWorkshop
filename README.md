@@ -10,11 +10,11 @@ Or download code and run on locally with jupyter notebooks.
 ## Worksheet questions
 
 ### Before you start running code in the jupyter notebook
-1. Think about the parameter INFECT_PROB, which stands for ‘infection probability’:
+* 1. Think about the parameter INFECT_PROB, which stands for ‘infection probability’:
 
-> 1a. If INFECT_PROB is set to 0, what would happen to the healthy cells next to a Viral Assembly (VA) cell? Or the healthy cells next to a Viral Release (VR) cell?
+  * 1a. If INFECT_PROB is set to 0, what would happen to the healthy cells next to a Viral Assembly (VA) cell? Or the healthy cells next to a Viral Release (VR) cell?
 
-* 1b. If INFECT_PROBis set to 1, what would happen to the healthy cells next to a Viral Assembly (VA) cell? Or the healthy cells next to a Viral Release (VR) cell?
+  * 1b. If INFECT_PROBis set to 1, what would happen to the healthy cells next to a Viral Assembly (VA) cell? Or the healthy cells next to a Viral Release (VR) cell?
 
 ### Run simulation and visualize
 2. When you run the below code how many times do you run one_time_step(tissue, infect_prob)?
