@@ -61,7 +61,7 @@ Note that the actual number of starting infected cells is a random number within
 * 11 Do you think all viruses would behave the same as in our simulations? Can you think of any which might behave differently? 
 
 
-### Notes to instructors
+## Notes to instructors
 
 If would like the background slides to teach this workshop feel free to submit an issue or pull request. Depending on the timeline someone from the BISB program at UCSD may also be avalible to come in to run the workshop if that is preferred.
 
